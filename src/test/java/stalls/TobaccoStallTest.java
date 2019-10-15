@@ -15,7 +15,7 @@ public class TobaccoStallTest {
 
     @Before
     public void setUp() throws Exception {
-        tobaccoStall = new TobaccoStall("Jacks Drum", "Jack Jarvis", ParkingSpot.B1);
+        tobaccoStall = new TobaccoStall("Jacks Drum", "Jack Jarvis", ParkingSpot.B1, 2);
         visitor1 = new Visitor(17, 400, 35.00);
         visitor2 = new Visitor(18, 100, 35.00);
     }
